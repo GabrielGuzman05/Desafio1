@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Formulario</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <ul>
+        <li><a href="#" class="active">Formulario</a></li>
+        <li><a href="tabla.html">Tabla</a></li>
+    </ul>
+    <h1>Formulario</h1>
+    <div>
+        <form action="/action_page.php">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre...">
+      
+          <label for="pais">País</label>
+          <select id="country" name="country">
+            <option value="alemania">Alemania</option>
+            <option value="australia">Australia</option>
+            <option value="austria">Austria</option>
+            <option value="canada">Canada</option>
+            <option value="chile">Chile</option>
+            <option value="estados unidos">Estados Unidos</option>
+            <option value="francia">Francia</option>
+            <option value="italia">Italia</option>
+            <option value="mexico">Mexico</option>
+            <option value="reino unido">Reino Unido</option>
+          </select>
+          <label for="numero">Numero Favorito</label><br>
+          <input type="number" name="numero" min="1" step="1" value="30">
+          <label for="bday">Cumpleaños</label><br>
+          <input type="date" name="bday"><br>
+          <label for="email">Email</label><br>
+          <input type="email" name="email"><br>
+          <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+</body>
+</html>
